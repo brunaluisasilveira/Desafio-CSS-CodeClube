@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 41px;
+    color: #000000;
+    margin-top: 128px;
+    margin-left: 16px;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box; 
+    display: block;
+    margin: 12px 16px 0 16px;
+}
+
+.email {
+    background: #F2F2F7;
+    border-radius: 6px;
+    border: none;
+    margin: 102px 16px 0 16px;
+    width: 343px;
+    height: 48px;
+}
+
+input::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.41px;
+    color: #929292;
+    padding: 13px;
+}
+
+.password {
+    background: #F2F2F7;
+    border-radius: 6px;
+    border: none;
+    margin: 12px 16px 0 16px;
+    width: 343px;
+    height: 48px;
+}
+
+.forgot {
+    color: #007AFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    margin: 20px 16px 0 16px;
+}
+
+button {
+    font-size: 17px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.94);
+    border-radius: 10px;
+    display: block;
+    margin: 20px 16px 0 16px;
+    width: 343px;
+    height: 48px;
+}
+
+.sign-up {
+    size: 16px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    color: #969696;  
+    margin: 204px 16px 0 16px;
+    width: 343px;
+}
+
+strong {
+    color: #007AFF;
+}
